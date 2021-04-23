@@ -74,3 +74,7 @@
 2021-04-23T14:47:16.464Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
 2021-04-23T14:47:16.494Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
 2021-04-23T14:47:16.926Z - info: [gme:server:standalone] Server is listening ...
+2021-04-23T16:51:41.796Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-23T16:51:41.811Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-23T18:20:25.970Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-23T18:20:25.982Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
