@@ -1,0 +1,57 @@
+2021-04-23T14:00:51.649Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+PetriNet
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-23T14:00:51.671Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-23T14:00:51.678Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)

@@ -1,0 +1,19 @@
+{
+  "components": {
+    "seeds": {
+      "pendes": {
+        "src": "src/seeds/pendes"
+      }
+    },
+    "plugins": {
+      "PendesCodeGen": {
+        "src": "src/plugins/PendesCodeGen",
+        "test": "test/plugins/PendesCodeGen"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {}
+  }
+}
