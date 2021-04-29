@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "PNViz",
+    "title": "PNViz",
+    "panel": "panels/PNViz/PNVizPanel",
+    "DEBUG_ONLY": false
+  }
+]

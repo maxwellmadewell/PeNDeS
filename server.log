@@ -1,80 +1,892 @@
-2021-04-23T14:00:50.592Z - info: [gme] Node version v14.16.1
-2021-04-23T14:00:50.593Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\server.log
-2021-04-23T14:00:50.593Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\server-error.log
-2021-04-23T14:00:50.616Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.211.18:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
-2021-04-23T14:00:50.735Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\blob-local-storage
-2021-04-23T14:00:50.739Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
-2021-04-23T14:00:50.780Z - warn: [gme:server:auth:gmeauth] User "guest" was not found. We will attempt to create it automatically.
-2021-04-23T14:00:50.906Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
-2021-04-23T14:00:51.408Z - info: [gme:server:standalone] Server is listening ...
-2021-04-23T14:00:51.648Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+PetriNet
-2021-04-23T14:00:51.649Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+PetriNet
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:01.874Z - info: [gme] Node version v14.16.1
+2021-04-26T14:18:01.875Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:18:01.875Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:18:01.898Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:18:02.017Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:18:02.024Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:18:02.063Z - warn: [gme:server:auth:gmeauth] User "guest" was not found. We will attempt to create it automatically.
+2021-04-26T14:18:02.189Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:18:02.625Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T14:18:02.821Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+mxmProj
+2021-04-26T14:18:02.822Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+mxmProj
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
-2021-04-23T14:00:51.671Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:02.838Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+mxmProj]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
-2021-04-23T14:00:51.678Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:02.846Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+mxmProj]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
-2021-04-23T14:01:46.745Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
-2021-04-23T14:47:16.318Z - info: [gme] Node version v14.16.1
-2021-04-23T14:47:16.320Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\server.log
-2021-04-23T14:47:16.320Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\server-error.log
-2021-04-23T14:47:16.344Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.211.18:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
-2021-04-23T14:47:16.458Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\blob-local-storage
-2021-04-23T14:47:16.464Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
-2021-04-23T14:47:16.494Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mcoursey_petrinet
-2021-04-23T14:47:16.926Z - info: [gme:server:standalone] Server is listening ...
-2021-04-23T16:51:41.796Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
-2021-04-23T16:51:41.811Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
-2021-04-23T18:20:25.970Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
-2021-04-23T18:20:25.982Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T14:20:57.182Z - info: [gme] Node version v14.16.1
+2021-04-26T14:20:57.183Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:20:57.183Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:20:57.211Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:20:57.347Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:20:57.352Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:20:57.396Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:20:57.826Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T14:23:10.129Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T14:23:37.543Z - info: [gme] Node version v14.16.1
+2021-04-26T14:23:37.544Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:23:37.544Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:23:37.578Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:23:37.736Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:23:37.745Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:23:37.803Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:23:38.597Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T14:36:07.914Z - info: [gme] Node version v14.16.1
+2021-04-26T14:36:07.915Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:36:07.915Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:36:07.937Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:36:08.041Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:36:08.047Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:36:08.085Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:36:08.507Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T14:42:21.082Z - info: [gme] Node version v14.16.1
+2021-04-26T14:42:21.083Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:42:21.083Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:42:21.107Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:42:21.217Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:42:21.223Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:42:21.259Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:42:21.800Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T14:43:34.030Z - info: [gme] Node version v14.16.1
+2021-04-26T14:43:34.031Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T14:43:34.032Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T14:43:34.054Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T14:43:34.157Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T14:43:34.161Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:43:34.197Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T14:43:34.608Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T15:10:47.386Z - info: [gme] Node version v14.16.1
+2021-04-26T15:10:47.387Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T15:10:47.388Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T15:10:47.415Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T15:10:47.531Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T15:10:47.537Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T15:10:47.574Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T15:10:48.011Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T16:37:50.666Z - info: [gme] Node version v14.16.1
+2021-04-26T16:37:50.667Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T16:37:50.667Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T16:37:50.689Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T16:37:50.801Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T16:37:50.806Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T16:37:50.839Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T16:37:51.330Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T16:37:55.987Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T16:47:33.072Z - info: [gme] Node version v14.16.1
+2021-04-26T16:47:33.073Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T16:47:33.073Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T16:47:33.094Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T16:47:33.198Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T16:47:33.204Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T16:47:33.233Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T16:47:33.636Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T17:12:29.840Z - info: [gme] Node version v14.16.1
+2021-04-26T17:12:29.842Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T17:12:29.842Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T17:12:29.863Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T17:12:29.971Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T17:12:29.975Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T17:12:30.003Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T17:12:30.391Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T17:12:30.585Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T17:12:30.587Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:30.602Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:30.608Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:46.290Z - info: [gme] Node version v14.16.1
+2021-04-26T17:12:46.291Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T17:12:46.291Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T17:12:46.312Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T17:12:46.413Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T17:12:46.422Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T17:12:46.458Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T17:12:46.854Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T17:12:52.522Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:39.386Z - info: [gme] Node version v14.16.1
+2021-04-26T18:03:39.387Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:03:39.388Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:03:39.410Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:03:39.531Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:03:39.535Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:03:39.570Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:03:40.009Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:03:40.188Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T18:03:40.189Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:40.202Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:40.208Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:45.158Z - info: [gme] Node version v14.16.1
+2021-04-26T18:03:45.160Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:03:45.160Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:03:45.182Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:03:45.289Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:03:45.296Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:03:45.329Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:03:45.729Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:03:49.804Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.100Z - info: [gme] Node version v14.16.1
+2021-04-26T18:13:24.101Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:13:24.101Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:13:24.124Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:13:24.227Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:13:24.233Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:13:24.267Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:13:24.667Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:13:24.843Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T18:13:24.845Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.860Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.866Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:28.322Z - info: [gme] Node version v14.16.1
+2021-04-26T18:13:28.324Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:13:28.324Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:13:28.344Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:13:28.445Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:13:28.449Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:13:28.480Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:13:28.884Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:13:32.008Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:17:16.983Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:17:16.999Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:17:48.948Z - error: [gme:server:standalone:mongo] object does not exist #b25f77f4fe595a5a4e6bf0a2287a1958db6002f1
+2021-04-26T18:17:48.950Z - error: [gme:server:standalone:WebSocket] Error: Commit object does not exist [#b25f77f4fe595a5a4e6bf0a2287a1958db6002f1]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\storage.js:804:23
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:864:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:20:51.122Z - info: [gme] Node version v14.16.1
+2021-04-26T18:20:51.124Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:20:51.125Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:20:51.148Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:20:51.261Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:20:51.266Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:20:51.300Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:20:51.720Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:23:43.826Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:23:43.842Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:24:39.891Z - info: [gme] Node version v14.16.1
+2021-04-26T18:24:39.892Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:24:39.892Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:24:39.913Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:24:40.041Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:24:40.046Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:24:40.083Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:24:40.595Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:26:02.537Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:26:02.551Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:26:43.742Z - info: [gme] Node version v14.16.1
+2021-04-26T18:26:43.744Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:26:43.744Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:26:43.766Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:26:43.868Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:26:43.872Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:26:43.905Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:26:44.349Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:28:41.124Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:28:41.140Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:41:00.044Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:41:00.059Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-26T18:42:15.929Z - info: [gme] Node version v14.16.1
+2021-04-26T18:42:15.931Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:42:15.932Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:42:15.957Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:42:16.090Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:42:16.103Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:42:16.155Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:42:16.613Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T18:42:52.577Z - info: [gme] Node version v14.16.1
+2021-04-26T18:42:52.579Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T18:42:52.581Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T18:42:52.602Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T18:42:52.703Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T18:42:52.707Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:42:52.741Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T18:42:53.156Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T19:00:00.327Z - info: [gme] Node version v14.16.1
+2021-04-26T19:00:00.328Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T19:00:00.328Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T19:00:00.351Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T19:00:00.504Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T19:00:00.511Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T19:00:00.563Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T19:00:01.412Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T19:00:01.594Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T19:00:01.595Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:01.610Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:01.616Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:03.631Z - info: [gme] Node version v14.16.1
+2021-04-26T19:00:03.634Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T19:00:03.634Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T19:00:03.660Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T19:00:03.773Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T19:00:03.777Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T19:00:03.811Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T19:00:04.220Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T19:00:07.972Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:27.831Z - info: [gme] Node version v14.16.1
+2021-04-26T20:34:27.832Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T20:34:27.833Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T20:34:27.855Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T20:34:27.972Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T20:34:27.978Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:34:28.017Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:34:28.429Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T20:34:28.604Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T20:34:28.606Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:28.618Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:28.625Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:30.823Z - info: [gme] Node version v14.16.1
+2021-04-26T20:34:30.825Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T20:34:30.826Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T20:34:30.849Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T20:34:30.968Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T20:34:30.974Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:34:31.007Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:34:31.424Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T20:34:33.324Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:35:24.189Z - info: [gme] Node version v14.16.1
+2021-04-26T20:35:24.191Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T20:35:24.192Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T20:35:24.212Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T20:35:24.309Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T20:35:24.315Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:35:24.348Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T20:35:24.736Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T21:13:21.550Z - info: [gme] Node version v14.16.1
+2021-04-26T21:13:21.551Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T21:13:21.551Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T21:13:21.573Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T21:13:21.679Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T21:13:21.685Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T21:13:21.718Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T21:13:22.129Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T21:13:22.966Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-26T21:13:22.967Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:22.979Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:22.984Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:25.925Z - info: [gme] Node version v14.16.1
+2021-04-26T21:13:25.926Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-26T21:13:25.927Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-26T21:13:25.951Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-26T21:13:26.049Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-26T21:13:26.053Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T21:13:26.088Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-26T21:13:26.490Z - info: [gme:server:standalone] Server is listening ...
+2021-04-26T21:13:29.363Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.108Z - info: [gme] Node version v14.16.1
+2021-04-27T01:14:07.109Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-27T01:14:07.109Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-27T01:14:07.132Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-27T01:14:07.262Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-27T01:14:07.269Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-27T01:14:07.302Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-27T01:14:07.719Z - info: [gme:server:standalone] Server is listening ...
+2021-04-27T01:14:07.939Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-27T01:14:07.941Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.957Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.962Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:11.310Z - info: [gme] Node version v14.16.1
+2021-04-27T01:14:11.312Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-27T01:14:11.312Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-27T01:14:11.337Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.89:8888  http://127.0.0.1:8888
+2021-04-27T01:14:11.439Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-27T01:14:11.443Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-27T01:14:11.474Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-27T01:14:11.863Z - info: [gme:server:standalone] Server is listening ...
+2021-04-27T01:14:15.638Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:58:04.447Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-27T01:58:04.460Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-27T02:01:31.677Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-27T02:01:31.686Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2021-04-29T11:27:43.139Z - info: [gme] Node version v14.16.1
+2021-04-29T11:27:43.140Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server.log
+2021-04-29T11:27:43.141Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\server-error.log
+2021-04-29T11:27:43.172Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T11:27:43.342Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\blob-local-storage
+2021-04-29T11:27:43.346Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T11:27:43.389Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T11:27:43.956Z - info: [gme:server:standalone] Server is listening ...

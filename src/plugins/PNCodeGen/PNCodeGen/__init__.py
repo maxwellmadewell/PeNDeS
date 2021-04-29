@@ -1,24 +1,13 @@
 """
-MAX COURSEY
-Vanderbilt University - CS6388
-
 This is where the implementation of the plugin code goes.
-The PendesCodeGen-class is imported from both run_plugin.py and run_debug.py
-
-TRAVERSES PETRINET MODEL AND CREATE STRUCTURED DATA MODEL
+The PNCodeGen-class is imported from both run_plugin.py and run_debug.py
 """
-
-########## LIBRARIES ##########
 import sys
 import logging
 from webgme_bindings import PluginBase
 
-#TODO - mxm addl libs
-
-###############################
-
 # Setup a logger
-logger = logging.getLogger('PendesCodeGen')
+logger = logging.getLogger('PNCodeGen')
 logger.setLevel(logging.INFO)
 handler = logging.StreamHandler(sys.stdout)  # By default it logs to stderr..
 handler.setLevel(logging.INFO)
@@ -27,11 +16,11 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
-class PendesCodeGen(PluginBase):
+class PNCodeGen(PluginBase):
     def main(self):
         core = self.core
         root_node = self.root_node
-	META = self.META
+        META = self.META
         active_node = self.active_node # we assume the active node is the state machine node
 
         graph = {}
@@ -46,10 +35,10 @@ class PendesCodeGen(PluginBase):
         for node in nodes:
             if core.is_type_of(node, META['Place']):
                 places.add(core.get_path(node))
-	    elif core.is_type_of(node, META['Transition']):
-		transitions.add(core.get_path(node))  #TODO - not sure if I need this 
-        
-	for node in nodes:
+            elif core.is_type_of(node, META['Transition']):
+                transitions.add(core.get_path(node))  #TODO - not sure if I need this 
+
+        for node in nodes:
             if core.is_type_of(node, META['Inplaces']):
                 src = core.get_pointer_path(node, 'src')
                 dst = core.get_pointer_path(node, 'dst')
@@ -67,5 +56,5 @@ class PendesCodeGen(PluginBase):
                     graph[src].append(dst)
                 else:
                     graph[src] = [dst]
+##IM HERE
         
-

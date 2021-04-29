@@ -1,5 +1,5 @@
 {
-  "name": "mcoursey-petrinet",
+  "name": "mc",
   "scripts": {
     "start": "node app.js",
     "test": "node ./node_modules/mocha/bin/mocha --recursive test",
@@ -22,6 +22,7 @@
     "webgme": "^2.23.0"
   },
   "dependencies": {
+    "jointjs": "^3.3.1",
     "webgme-bindings": "latest"
   }
 }

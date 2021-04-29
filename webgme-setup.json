@@ -1,29 +1,29 @@
 {
   "components": {
     "seeds": {
-      "pendes": {
-        "src": "src/seeds/pendes"
+      "mxmp": {
+        "src": "src/seeds/mxmp"
+      }
+    },
+    "visualizers": {
+      "PNViz": {
+        "src": "panels/PNViz/PNVizPanel",
+        "title": "PNViz",
+        "panel": "src/visualizers/panels/PNViz",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/PNViz"
       }
     },
     "plugins": {
-      "PendesCodeGen": {
-        "src": "src/plugins/PendesCodeGen",
-        "test": "test/plugins/PendesCodeGen"
+      "PNCodeGen": {
+        "src": "src/plugins/PNCodeGen",
+        "test": "test/plugins/PNCodeGen"
       }
-    },
-    "addons": {},
-    "decorators": {},
-    "layouts": {},
-    "routers": {},
-    "visualizers": {}
+    }
   },
   "dependencies": {
     "seeds": {},
-    "plugins": {},
-    "addons": {},
-    "decorators": {},
-    "layouts": {},
-    "routers": {},
-    "visualizers": {}
+    "visualizers": {},
+    "plugins": {}
   }
 }

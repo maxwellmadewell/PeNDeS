@@ -1,57 +1,628 @@
-2021-04-23T14:00:51.649Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+PetriNet
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:02.822Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+mxmProj
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
-2021-04-23T14:00:51.671Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:02.838Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+mxmProj]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
-2021-04-23T14:00:51.678Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+PetriNet]
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
-    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:854:54)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:883:30
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:816:13)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+2021-04-26T14:18:02.847Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+mxmProj]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) 
  Error: Caught by
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
-    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:864:24)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:890:30
-    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:1142:31)
-    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:808:41)
-    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:624:44
-    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:137:13)
-    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mcoursey-petrinet\node_modules\q\q.js:125:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T16:37:55.987Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:30.587Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:30.602Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:30.608Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T17:12:52.523Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:40.189Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:40.202Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:40.208Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:03:49.804Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.845Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.860Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:24.866Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:13:32.008Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T18:17:48.948Z - error: [gme:server:standalone:mongo] object does not exist #b25f77f4fe595a5a4e6bf0a2287a1958db6002f1
+2021-04-26T18:17:48.950Z - error: [gme:server:standalone:WebSocket] Error: Commit object does not exist [#b25f77f4fe595a5a4e6bf0a2287a1958db6002f1]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\storage.js:804:23
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:864:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:01.595Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:01.610Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:01.616Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T19:00:07.972Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:28.606Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:28.619Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:28.625Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T20:34:33.324Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:22.967Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:22.979Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:22.984Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-26T21:13:29.363Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.941Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.957Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:07.963Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-27T01:14:15.638Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\mc\node_modules\q\q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
