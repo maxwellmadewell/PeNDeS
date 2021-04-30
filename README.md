@@ -28,12 +28,15 @@ This domain implenents a basic Petri Net model defined as a triple (P, T, F) whe
 A Petri net is a directed, weighted, bipartite graph consisting of two kinds of nodes(Places and Transitions) with arcs from a Place to a Transition or from a Transition to a Place. In the visualizer/graphical representation, Places are shown as circles, Transitions as bars/rectangles. Arcs are lines with multiple arcs allowed between nodes. A marking assigns to each Place p an nonnegative integer representing tokens.
 
 Meta
+
 ![image](https://user-images.githubusercontent.com/49755125/116700466-cd53b080-a994-11eb-8b83-c8c3503ff60c.png)
 
 Composition
+
 ![image](https://user-images.githubusercontent.com/49755125/116700517-dba1cc80-a994-11eb-83df-11ea1eeea983.png)
 
 Visualizer
+
 ![image](https://user-images.githubusercontent.com/49755125/116700587-ef4d3300-a994-11eb-93af-cab01ac11820.png)
 
 ##Applications and Use Case
