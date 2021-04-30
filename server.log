@@ -890,3 +890,1339 @@
 2021-04-29T11:27:43.346Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
 2021-04-29T11:27:43.389Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
 2021-04-29T11:27:43.956Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T11:45:35.846Z - info: [gme] Node version v14.16.1
+2021-04-29T11:45:35.848Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T11:45:35.849Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T11:45:35.872Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.115.31:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.102.79:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T11:45:35.982Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T11:45:35.985Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T11:45:36.021Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T11:45:36.407Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T16:10:34.476Z - info: [gme] Node version v14.16.1
+2021-04-29T16:10:34.477Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T16:10:34.477Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T16:10:34.505Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T16:10:34.642Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T16:10:34.647Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T16:10:34.674Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T16:10:35.104Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T16:10:38.096Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-29T16:10:38.097Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T16:10:38.108Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T16:10:38.112Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T16:10:49.611Z - info: [gme] Node version v14.16.1
+2021-04-29T16:10:49.612Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T16:10:49.612Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T16:10:49.636Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T16:10:49.746Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T16:10:49.754Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T16:10:49.787Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T16:10:50.239Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T16:10:55.850Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T17:46:56.793Z - info: [gme] Node version v14.16.1
+2021-04-29T17:46:56.794Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T17:46:56.794Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T17:46:56.816Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T17:46:56.923Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T17:46:56.928Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T17:46:56.959Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T17:46:57.381Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T17:46:57.540Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-29T17:46:57.542Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T17:46:57.554Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T17:46:57.559Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T17:47:00.454Z - info: [gme] Node version v14.16.1
+2021-04-29T17:47:00.455Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T17:47:00.456Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T17:47:00.495Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T17:47:00.698Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T17:47:00.705Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T17:47:00.760Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T17:47:01.429Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T17:47:08.880Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:17:29.952Z - info: [gme] Node version v14.16.1
+2021-04-29T18:17:29.954Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T18:17:29.954Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T18:17:29.977Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T18:17:30.093Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T18:17:30.098Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:17:30.129Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:17:30.547Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T18:17:30.712Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-29T18:17:30.713Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:17:30.728Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:17:30.734Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:17:33.370Z - info: [gme] Node version v14.16.1
+2021-04-29T18:17:33.371Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T18:17:33.372Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T18:17:33.396Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T18:17:33.503Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T18:17:33.509Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:17:33.542Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:17:33.986Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T18:17:36.488Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:33:41.057Z - info: [gme] Node version v14.16.1
+2021-04-29T18:33:41.058Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T18:33:41.059Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T18:33:41.080Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T18:33:41.180Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T18:33:41.186Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:33:41.221Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:33:41.669Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T18:33:41.832Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-29T18:33:41.834Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:33:41.853Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:33:41.865Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T18:33:44.232Z - info: [gme] Node version v14.16.1
+2021-04-29T18:33:44.234Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T18:33:44.234Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T18:33:44.257Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T18:33:44.364Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T18:33:44.372Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:33:44.402Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T18:33:44.896Z - info: [gme:server:standalone] Server is listening ...
+2021-04-29T18:33:46.951Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-29T23:56:17.934Z - error: [gme:server:worker:simpleworker:pid_19824:WorkerFunctions] plugin [PNCodeGen] failed with error message=Tried loading "webgme-bindings" at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js, stack=Error: Tried loading "webgme-bindings" at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2600:27
+    at Object.execCb (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1946:33)
+    at Module.check (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1133:51)
+    at Module.enable (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1426:22)
+    at Object.enable (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1807:39)
+    at Function.req.get (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2524:33)
+    at Object.localRequire [as require] (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1678:40)
+    at requirejs (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2047:24)
+    at PNCodeGen.main (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:65:25)
+    at result (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\plugin\managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js, C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2021-04-29T23:58:14.253Z - error: [gme:server:worker:simpleworker:pid_19592:WorkerFunctions] plugin [PNCodeGen] failed with error message=Tried loading "webgme-bindings" at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js, stack=Error: Tried loading "webgme-bindings" at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js
+- C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2600:27
+    at Object.execCb (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1946:33)
+    at Module.check (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1133:51)
+    at Module.enable (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1426:22)
+    at Object.enable (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1807:39)
+    at Function.req.get (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2524:33)
+    at Object.localRequire [as require] (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:1678:40)
+    at requirejs (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\requirejs\bin\r.js:2047:24)
+    at PNCodeGen.main (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:65:25)
+    at result (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\plugin\managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\index.js, C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\worker\simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2021-04-29T23:59:52.289Z - info: [gme] Node version v14.16.1
+2021-04-29T23:59:52.290Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-29T23:59:52.290Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-29T23:59:52.314Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-29T23:59:52.432Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-29T23:59:52.436Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T23:59:52.466Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-29T23:59:52.859Z - info: [gme:server:standalone] Server is listening ...
+2021-04-30T00:00:04.496Z - info: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:00:04.994Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 12, in <module>
+
+2021-04-30T00:00:04.994Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2021-04-30T00:00:05.005Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:00:05.009Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:05:24.019Z - info: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:05:24.328Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 12, in <module>
+
+2021-04-30T00:05:24.329Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2021-04-30T00:05:24.339Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:05:24.340Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:11:03.219Z - info: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:11:03.528Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 12, in <module>
+
+2021-04-30T00:11:03.530Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2021-04-30T00:11:03.538Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:11:03.539Z - error: [gme:server:worker:simpleworker:pid_4016:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:14:02.203Z - info: [gme] Node version v14.16.1
+2021-04-30T00:14:02.206Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-30T00:14:02.206Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-30T00:14:02.228Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-30T00:14:02.338Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-30T00:14:02.342Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:14:02.373Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:14:02.801Z - info: [gme:server:standalone] Server is listening ...
+2021-04-30T00:14:13.162Z - info: [gme:server:worker:simpleworker:pid_25128:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:14:13.509Z - error: [gme:server:worker:simpleworker:pid_25128:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 12, in <module>
+
+2021-04-30T00:14:13.510Z - error: [gme:server:worker:simpleworker:pid_25128:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2021-04-30T00:14:13.520Z - error: [gme:server:worker:simpleworker:pid_25128:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:14:13.525Z - error: [gme:server:worker:simpleworker:pid_25128:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:31:58.737Z - info: [gme] Node version v14.16.1
+2021-04-30T00:31:58.738Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-30T00:31:58.739Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-30T00:31:58.759Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-30T00:31:58.858Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-30T00:31:58.864Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:31:58.896Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:31:59.300Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-4091, syscall=listen, address=::, port=8888
+2021-04-30T00:32:13.838Z - info: [gme] Node version v14.16.1
+2021-04-30T00:32:13.840Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-30T00:32:13.841Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-30T00:32:13.864Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-30T00:32:13.972Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-30T00:32:13.976Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:32:14.005Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:32:14.445Z - info: [gme:server:standalone] Server is listening ...
+2021-04-30T00:32:15.637Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+test
+2021-04-30T00:32:15.638Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+test
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-30T00:32:15.652Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-30T00:32:15.658Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-30T00:32:18.707Z - info: [gme] Node version v14.16.1
+2021-04-30T00:32:18.709Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-30T00:32:18.709Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-30T00:32:18.730Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-30T00:32:18.841Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-30T00:32:18.846Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:32:18.879Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T00:32:19.308Z - info: [gme:server:standalone] Server is listening ...
+2021-04-30T00:32:24.457Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\safestorage.js:558:27
+    at _fulfilled (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:854:54)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:816:13)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+ Error: Caught by
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\webgme-engine\src\server\storage\websocket.js:436:56
+    at _rejected (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:864:24)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:808:41)
+    at C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:137:13)
+    at flush (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2021-04-30T00:32:41.751Z - info: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:32:42.183Z - info: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:32:42,183 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#0ed51aedda1f299a002a61335183faf38166225d"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T00:32:42.198Z - info: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:32:42,198 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T00:32:42.416Z - error: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 44, in <module>
+
+2021-04-30T00:32:42.417Z - error: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     plugin.main()
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 54, in main
+    outplaces.add({'src': src, 'dst': dst})
+AttributeError: 'list' object has no attribute 'add'
+
+2021-04-30T00:32:42.431Z - error: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:32:42.435Z - error: [gme:server:worker:simpleworker:pid_25364:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:35:22.577Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:35:22.988Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 13, in <module>
+
+2021-04-30T00:35:22.991Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from PNCodeGen import PNCodeGen
+ImportError: cannot import name 'PNCodeGen' from 'PNCodeGen' (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py)
+
+2021-04-30T00:35:23.009Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:35:23.013Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#0ed51aedda1f299a002a61335183faf38166225d" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:36:30.130Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:36:30.550Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:30,549 - TypeCheck - INFO - ActiveNode at "/Q" has name MiniProject
+
+2021-04-30T00:36:30.613Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:30,612 - TypeCheck - INFO - committed :{'status': 'SYNCED', 'hash': '#58caf9471d40fed0537d9fa55bc7a5724d945a8a'}
+
+2021-04-30T00:36:30.766Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:30,765 - TypeCheck - INFO - Places: [{'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/h'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/z'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/d'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/R'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/G'}]
+
+2021-04-30T00:36:30.875Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:30,873 - TypeCheck - INFO - Transitions: [{'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/y'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/w'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/I'}, {'rootId': '#6ee87c8fc8fe8f6b8caffa93896d462a813ad2fe', 'nodePath': '/Q/O'}]
+
+2021-04-30T00:36:31.052Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:31,052 - TypeCheck - INFO - Arcs: []
+
+2021-04-30T00:36:31.057Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:31,052 - TypeCheck - INFO - {
+    "places": {
+        "/Q/h": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/z": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/d": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/R": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/G": {
+            "parent": [],
+            "children": []
+        }
+    },
+    "transitions": {
+        "/Q/y": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/w": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/I": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/O": {
+            "parent": [],
+            "children": []
+        }
+    }
+}
+2021-04-29 20:36:31,052 - TypeCheck - INFO - IS FREE CHOICE CALCULATION
+2021-04-29 20:36:31,052 - TypeCheck - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T00:36:31.059Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:31,059 - TypeCheck - INFO - IS STATE MACHINE CALCULATION
+
+2021-04-30T00:36:31.065Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:31,062 - TypeCheck - INFO - IS MARKED GRAPH CALCULATION
+
+2021-04-30T00:36:31.071Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:31,069 - TypeCheck - INFO - IS WORKFLOW NET CALCULATION
+
+2021-04-30T00:36:53.953Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:36:54.443Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,443 - TypeCheck - INFO - ActiveNode at "/Q" has name newName
+
+2021-04-30T00:36:54.494Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,494 - TypeCheck - INFO - committed :{'status': 'SYNCED', 'hash': '#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71'}
+
+2021-04-30T00:36:54.657Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,656 - TypeCheck - INFO - Places: [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/h'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/z'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/d'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/R'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/G'}]
+
+2021-04-30T00:36:54.761Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,760 - TypeCheck - INFO - Transitions: [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/y'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/w'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/I'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/O'}]
+
+2021-04-30T00:36:54.983Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,981 - TypeCheck - INFO - Arcs: []
+
+2021-04-30T00:36:54.986Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,982 - TypeCheck - INFO - {
+    "places": {
+        "/Q/h": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/z": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/d": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/R": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/G": {
+            "parent": [],
+            "children": []
+        }
+    },
+    "transitions": {
+        "/Q/y": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/w": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/I": {
+            "parent": [],
+            "children": []
+        },
+        "/Q/O": {
+            "parent": [],
+            "children": []
+        }
+    }
+}
+2021-04-29 20:36:54,982 - TypeCheck - INFO - IS FREE CHOICE CALCULATION
+2021-04-29 20:36:54,982 - TypeCheck - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T00:36:54.987Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,986 - TypeCheck - INFO - IS STATE MACHINE CALCULATION
+
+2021-04-30T00:36:54.991Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,990 - TypeCheck - INFO - IS MARKED GRAPH CALCULATION
+
+2021-04-30T00:36:54.997Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 20:36:54,995 - TypeCheck - INFO - IS WORKFLOW NET CALCULATION
+
+2021-04-30T00:58:45.550Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:58:45.951Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 13, in <module>
+
+2021-04-30T00:58:45.952Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from PNCodeGen import PNCodeGen
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 61
+    logger.info(json.dumps(graph, indent=4))
+                                            ^
+IndentationError: unindent does not match any outer indentation level
+
+2021-04-30T00:58:45.962Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:58:45.963Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:59:31.529Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T00:59:31.879Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 13, in <module>
+
+2021-04-30T00:59:31.881Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from PNCodeGen import PNCodeGen
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 61
+    logger.info(json.dumps(graph, indent=4))
+                                            ^
+IndentationError: unindent does not match any outer indentation level
+
+2021-04-30T00:59:31.891Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T00:59:31.892Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:01:13.706Z - info: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:01:14.098Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 13, in <module>
+
+2021-04-30T01:01:14.099Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from PNCodeGen import PNCodeGen
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 61
+    logger.info(json.dumps(graph, indent=4))
+                                            ^
+IndentationError: unindent does not match any outer indentation level
+
+2021-04-30T01:01:14.109Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:01:14.111Z - error: [gme:server:worker:simpleworker:pid_9088:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:02:36.166Z - info: [gme] Node version v14.16.1
+2021-04-30T01:02:36.167Z - info: [gme] Logfile [ info ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server.log
+2021-04-30T01:02:36.167Z - info: [gme] Logfile [ error ] : C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\server-error.log
+2021-04-30T01:02:36.190Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://169.254.193.190:8888  http://10.10.10.1:8888  http://169.254.13.98:8888  http://169.254.121.215:8888  http://192.168.4.91:8888  http://127.0.0.1:8888
+2021-04-30T01:02:36.322Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\blob-local-storage
+2021-04-30T01:02:36.326Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T01:02:36.358Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/mc
+2021-04-30T01:02:36.762Z - info: [gme:server:standalone] Server is listening ...
+2021-04-30T01:02:44.062Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:02:44.556Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:02:44,555 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#bc4c4e63f3505cc16cd55ef196fba5b9efc76e71"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:02:44.574Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:02:44,574 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:02:45.086Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:02:45,085 - PNCodeGen - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T01:02:45.091Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:02:45,090 - PNCodeGen - INFO - IS STATE MACHINE CALCULATION
+2021-04-29 21:02:45,090 - PNCodeGen - INFO - IS MARKED GRAPH CALCULATION
+2021-04-29 21:02:45,090 - PNCodeGen - INFO - IS WORKFLOW NET CALCULATION
+
+2021-04-30T01:02:45.092Z - info: [gme:server:worker:simpleworker:pid_23188:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:02:45,091 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:07:27.338Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:07:27.782Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:07:27,781 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#49ba06863277a6a29723b0c19412dfd33d483068"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:07:27.804Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:07:27,803 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:07:28.389Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:07:28,387 - PNCodeGen - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T01:07:28.394Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:07:28,394 - PNCodeGen - INFO - IS STATE MACHINE CALCULATION
+
+2021-04-30T01:07:28.396Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:07:28,394 - PNCodeGen - INFO - IS MARKED GRAPH CALCULATION
+2021-04-29 21:07:28,394 - PNCodeGen - INFO - IS WORKFLOW NET CALCULATION
+2021-04-29 21:07:28,394 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:12:50.551Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:12:50.912Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:12:50,911 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#4b0415d5327dd20a8ca866e73816161ba89d4ca8"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:12:50.927Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:12:50,926 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:12:51.421Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:12:51,421 - PNCodeGen - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T01:12:51.426Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:12:51,425 - PNCodeGen - INFO - IS WORKFLOW NET CALCULATION
+
+2021-04-30T01:12:51.426Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:12:51,425 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:13:03.336Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:13:03.697Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:13:03,696 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#0f87e82a4bdb3142c45a190dd65f084a3936aa49"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:13:03.710Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:13:03,709 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:13:04.132Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:13:04,131 - PNCodeGen - INFO - FREE-CHOICE GRAPH!
+
+2021-04-30T01:13:04.135Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:13:04,134 - PNCodeGen - INFO - IS WORKFLOW NET CALCULATION
+
+2021-04-30T01:13:04.136Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:13:04,134 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:15:35.432Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:15:35.768Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:15:35,767 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#5ff9c777a98f3c41102e286758166082c97780e1"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:15:35.785Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:15:35,784 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:15:36.299Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+
+2021-04-30T01:15:36.301Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]   File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 44, in <module>
+    plugin.main()
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 91, in main
+    if is_free_choice(graph):
+NameError: name 'is_free_choice' is not defined
+
+2021-04-30T01:15:36.317Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5ff9c777a98f3c41102e286758166082c97780e1" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:15:36.322Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5ff9c777a98f3c41102e286758166082c97780e1" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5ff9c777a98f3c41102e286758166082c97780e1" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:20:09.220Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:20:09.563Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:20:09,563 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#9b5db731e62d85a38285efea5d2450a228571039"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:20:09.581Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:20:09,581 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:20:10.049Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 44, in <module>
+
+2021-04-30T01:20:10.051Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     plugin.main()
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 84, in main
+    if one_exit and one_entry and child_transitions and parent_transitions:
+NameError: name 'one_exit' is not defined
+
+2021-04-30T01:20:10.066Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#9b5db731e62d85a38285efea5d2450a228571039" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:20:10.067Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#9b5db731e62d85a38285efea5d2450a228571039" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#9b5db731e62d85a38285efea5d2450a228571039" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:20:23.125Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:20:23.513Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:20:23,513 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#966bd9e1f7544a3128f8b309abcdb484222c49a8"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:20:23.540Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:20:23,539 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:20:24.029Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 44, in <module>
+
+2021-04-30T01:20:24.031Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     plugin.main()
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 84, in main
+    if one_exit and one_entry and child_transitions and parent_transitions:
+NameError: name 'one_exit' is not defined
+
+2021-04-30T01:20:24.052Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#966bd9e1f7544a3128f8b309abcdb484222c49a8" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:20:24.054Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#966bd9e1f7544a3128f8b309abcdb484222c49a8" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#966bd9e1f7544a3128f8b309abcdb484222c49a8" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:28:10.738Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:28:11.105Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:28:11,104 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#5fd69578d3c45a03014f3ef0585bfb51874e4a1b"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:28:11.124Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:28:11,123 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:28:11.531Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 44, in <module>
+
+2021-04-30T01:28:11.531Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     plugin.main()
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 33, in main
+    free_choice = null
+
+2021-04-30T01:28:11.531Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] NameError: name 'null' is not defined
+
+2021-04-30T01:28:11.550Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5fd69578d3c45a03014f3ef0585bfb51874e4a1b" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:28:11.551Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5fd69578d3c45a03014f3ef0585bfb51874e4a1b" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#5fd69578d3c45a03014f3ef0585bfb51874e4a1b" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:28:58.521Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:28:58.865Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:28:58,865 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#7a2aedc7c898bed16c98e0a1961e9459e23b90f6"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:28:58.883Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:28:58,882 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:28:59.370Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:28:59,369 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:30:23.706Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:30:24.059Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:30:24,057 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#ef15d3fe78ccfa69fd506cf515e9143963750525"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:30:24.076Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:30:24,075 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:30:24.471Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:30:24,469 - PNCodeGen - INFO - Places, Transitions, Arcs-------
+
+2021-04-30T01:30:24.477Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:30:24,470 - PNCodeGen - INFO - [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/h'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/z'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/d'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/R'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/G'}]
+2021-04-29 21:30:24,470 - PNCodeGen - INFO - [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/y'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/w'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/I'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/O'}]
+2021-04-29 21:30:24,470 - PNCodeGen - INFO - [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/3'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/4'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/k'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/h2'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/s'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/B'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/m'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/A'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/p'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/r'}]
+
+2021-04-30T01:30:24.576Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:30:24,574 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:32:19.855Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:32:20.199Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:20,198 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#ef15d3fe78ccfa69fd506cf515e9143963750525"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:32:20.216Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:20,216 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:32:20.587Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:20,586 - PNCodeGen - INFO - Places, Transitions, Arcs-------
+
+2021-04-30T01:32:20.590Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:20,586 - PNCodeGen - INFO - [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/h'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/z'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/d'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/R'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/G'}]
+2021-04-29 21:32:20,586 - PNCodeGen - INFO - [{'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/y'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/w'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/I'}, {'rootId': '#7a62d15f0357125f35eba2865a2c6d8e4065acff', 'nodePath': '/Q/O'}]
+2021-04-29 21:32:20,586 - PNCodeGen - INFO - Arcs ========
+2021-04-29 21:32:20,586 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/3"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/4"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/k"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/h2"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/s"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/B"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/m"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/A"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/p"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/r"
+  }
+]
+
+2021-04-30T01:32:20.648Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:20,647 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:32:55.511Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:32:55.866Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:55,865 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#ef15d3fe78ccfa69fd506cf515e9143963750525"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:32:55.886Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:55,885 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:32:56.190Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:56,190 - PNCodeGen - INFO - Places, Transitions, Arcs-------
+
+2021-04-30T01:32:56.191Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:56,190 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/h"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/z"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/d"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/R"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/G"
+  }
+]
+2021-04-29 21:32:56,190 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/y"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/w"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/I"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/O"
+  }
+]
+2021-04-29 21:32:56,190 - PNCodeGen - INFO - Arcs ========
+2021-04-29 21:32:56,190 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/3"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/4"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/k"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/h2"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/s"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/B"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/m"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/A"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/p"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/r"
+  }
+]
+
+2021-04-30T01:32:56.245Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:32:56,245 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2021-04-30T01:34:38.591Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:34:38.951Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Traceback (most recent call last):
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py", line 13, in <module>
+
+2021-04-30T01:34:38.953Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen]     from PNCodeGen import PNCodeGen
+  File "C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen\__init__.py", line 34
+    logger.info("Transitions ========")
+IndentationError: unexpected indent
+
+2021-04-30T01:34:38.963Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#ef15d3fe78ccfa69fd506cf515e9143963750525" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:34:38.963Z - error: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions] plugin [PNCodeGen] failed with error message=python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#ef15d3fe78ccfa69fd506cf515e9143963750525" "master" "/Q" "" "" exited with code 1., stack=Error: python C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\run_plugin.py 5555 "#ef15d3fe78ccfa69fd506cf515e9143963750525" "master" "/Q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\mxmco\Vand\Model_6388\MiniProject\old\PeNDeS\src\plugins\PNCodeGen\PNCodeGen.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2021-04-30T01:35:09.151Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] zmq-server listening at port 5555
+2021-04-30T01:35:09.497Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,497 - PNCodeGen - INFO - sys.args: ['C:\\Users\\mxmco\\Vand\\Model_6388\\MiniProject\\old\\PeNDeS\\src\\plugins\\PNCodeGen\\run_plugin.py', '5555', '"#ef15d3fe78ccfa69fd506cf515e9143963750525"', '"master"', '"/Q"', '""', '""']
+
+2021-04-30T01:35:09.518Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,517 - PNCodeGen - INFO - Connected to tcp://127.0.0.1:5555
+
+2021-04-30T01:35:09.835Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,834 - PNCodeGen - INFO - Places ========
+
+2021-04-30T01:35:09.837Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,834 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/h"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/z"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/d"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/R"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/G"
+  }
+]
+2021-04-29 21:35:09,834 - PNCodeGen - INFO - Transitions ========
+2021-04-29 21:35:09,835 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/y"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/w"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/I"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/O"
+  }
+]
+2021-04-29 21:35:09,835 - PNCodeGen - INFO - Arcs ========
+
+2021-04-30T01:35:09.840Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,835 - PNCodeGen - INFO - [
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/3"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/4"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/k"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/h2"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/s"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/B"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/m"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/A"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/p"
+  },
+  {
+    "rootId": "#7a62d15f0357125f35eba2865a2c6d8e4065acff",
+    "nodePath": "/Q/r"
+  }
+]
+
+2021-04-30T01:35:09.889Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,888 - PNCodeGen - INFO - Graph ========
+
+2021-04-30T01:35:09.891Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,888 - PNCodeGen - INFO - {
+  "places": {
+    "/Q/h": {
+      "parent": [],
+      "children": [
+        "/Q/w"
+      ]
+    },
+    "/Q/z": {
+      "parent": [
+        "/Q/y"
+      ],
+      "children": [
+        "/Q/w"
+      ]
+    },
+    "/Q/d": {
+      "parent": [
+        "/Q/w"
+      ],
+      "children": [
+        "/Q/O"
+      ]
+    },
+    "/Q/R": {
+      "parent": [
+        "/Q/w"
+      ],
+      "children": [
+        "/Q/I"
+      ]
+    },
+    "/Q/G": {
+      "parent": [
+        "/Q/O",
+        "/Q/I"
+      ],
+      "children": [
+        "/Q/y"
+      ]
+    }
+  },
+  "transitions": {
+    "/Q/y": {
+      "parent": [
+        "/Q/G"
+      ],
+      "children": [
+        "/Q/z"
+      ]
+    },
+    "/Q/w": {
+      "parent": [
+        "/Q/h",
+        "/Q/z"
+      ],
+      "children": [
+        "/Q/d",
+        "/Q/R"
+      ]
+    },
+    "/Q/I": {
+      "parent": [
+        "/Q/R"
+      ],
+      "children": [
+        "/Q/G"
+      ]
+    },
+    "/Q/O": {
+      "parent": [
+        "/Q/d"
+      ],
+      "children": [
+        "/Q/G"
+      ]
+    }
+  }
+}
+
+2021-04-30T01:35:09.893Z - info: [gme:server:worker:simpleworker:pid_4488:WorkerFunctions:PluginManagerBase:plugin:PNCodeGen] 2021-04-29 21:35:09,891 - PNCodeGen - INFO - Disconnected from tcp://127.0.0.1:5555
+

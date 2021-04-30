@@ -8,6 +8,40 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
     'use strict';
 
     var WIDGET_CLASS = 'p-n-viz';
+    var pn = joint.shapes.pn
+    var liveTransitions = [];
+
+    var Place = new pn.Place({
+        position: { x: 140, y: 50 },
+        attrs: {
+            '.label': {
+                'text': 'place',
+                'fill': 'black'
+            },
+            '.root': {
+                'stroke': '#9586fd',
+                'stroke-width': 4
+            },
+            '.tokens > circle': {
+                'fill': 'black'
+            }
+        },
+        tokens: 1
+    });
+
+    var Transition = new joint.shapes.pn.Transition({
+        position: { x: 50, y: 160 },
+        attrs: {
+            '.label': {
+                'text': 'transition',
+                'fill': 'black'
+            },
+            '.root': {
+                'fill': 'black',
+                'stroke': '#9586fd'
+            }
+        }
+    });
 
     function PNVizWidget(logger, container) {
         this._logger = logger.fork('Widget');
@@ -31,14 +65,22 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
             width: width,
             height: height,
             model: this._jointSM,
-            interactive: false
+            interactive: false,
+            elementView: joint.shapes.pn.PlaceView.extend({
+                renderTokens() {
+                    try {
+                        joint.shapes.pn.PlaceView.prototype.renderTokens.call(this)
+                    } catch {
+
+                    }
+                }
+            })
         });
 
         // add event calls to elements
         this._jointPaper.on('element:pointerdblclick', function (elementView) {
             const currentElement = elementView.model;
             if (self._webgmeSM) {
-                // console.log(self._webgmeSM.id2state[currentElement.id]);
                 self._setCurrentState(self._webgmeSM.id2state[currentElement.id]);
             }
         });
@@ -53,166 +95,58 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
     // State Machine manipulating functions called from the controller ***TAKES SM FROM CONTROL
     PNVizWidget.prototype.initMachine = function (machineDescriptor) {
         const self = this;
-        var pn = joint.shapes.pn;
-        console.log("*** WIDGET *** SM ***")
-        console.log(machineDescriptor);
-
+        //var pn = joint.shapes.pn;
+        console.log("MACH DESC")
         self._webgmeSM = machineDescriptor;
         self._webgmeSM.current = self._webgmeSM.init;
-        console.log("init current")
-        console.log(self._webgmeSM.current)
         self._jointSM.clear();
         const sm = self._webgmeSM;
-        console.log("WIDGET SM 69")
-        console.log(sm)
-        sm.id2state = {}; // this dictionary will connect the on-screen id to the state id
-        // first add the states
-        Object.keys(sm.places).forEach(placeId => {
-            let vertex = null;
-            //if (sm.init === placeId) {
-            //    vertex = new joint.shapes.standard.Circle({
-            //        position: sm.places[placeId].position,
-            //        size: { width: 20, height: 20 },
-            //        attrs: {
-            //            body: {
-            //                fill: '#333333',
-            //                cursor: 'pointer'
-            //            }
-            //        }
-            //    });
-            if (sm.places[placeId].isEnd) {
-                vertex = new joint.shapes.standard.Circle({
-                    position: sm.places[placeId].position,
-                    size: { width: 30, height: 30 },
-                    attrs: {
-                        body: {
-                            fill: '#999999',
-                            cursor: 'pointer'
-                        }
-                    }
-                });
-               //TODO - TRYING OUT TOKENS
-            } else if (sm.places[placeId].isTransition) {
+        sm.state2id = {};
+        sm.id2state = {};
 
-                vertex = new pn.Place({
-                    position: sm.places[placeId].position,
-                    attrs: {
-                        '.label': {
-                            'text': sm.places[placeId].name,
-                            'fill': '#7c68fc'
-                        },
-                        '.root': {
-                            'stroke': '#9586fd',
-                            'stroke-width': 3
-                        },
-                        '.tokens > circle': {
-                            'fill': '#7a7e9b'
-                        }
-                    },
-                    tokens: 2
-                });
+        console.log("SEE PLACES THEN TRANS")
+        console.log(sm.places)
+        console.log(sm.transitions)
+        // For each place node path
+        Object.keys(sm.places).forEach(placeId => {
+            //Initialized places and transitions
+            let vertex = null;
+            vertex = (sm.places[placeId].isTransition) ? Transition.clone() : Place.clone();
+            vertex
+                .position(sm.places[placeId].position.x, sm.places[placeId].position.y)
+                .attr('.label/text', sm.places[placeId].name)
+                //set adds values for keys not in attributes
+                .set('tokens', sm.places[placeId].tokens);
             
-            //} else if (sm.places[placeId].isTransition) {
-            //    vertex = new joint.shapes.standard.Rectangle({
-            //        position: sm.places[placeId].position,
-            //        size: { width: 30, height: 30 },
-            //        attrs: {
-            //            label: {
-            //                text: sm.places[placeId].name,
-            //                //event: 'element:label:pointerdown',
-            //                fontWeight: 'bold',
-            //                //cursor: 'text',
-            //                //style: {
-            //                //    userSelect: 'text'
-            //                //}
-            //            },
-            //            body: {
-            //                strokeWidth: 3,
-            //                cursor: 'pointer'
-            //            }
-            //        }
-            //    });
-            } else {
-                vertex = new joint.shapes.standard.Circle({
-                    position: sm.places[placeId].position,
-                    size: { width: 60, height: 60 },
-                    attrs: {
-                        label: {
-                            text: sm.places[placeId].name,
-                            //event: 'element:label:pointerdown',
-                            fontWeight: 'bold',
-                            //cursor: 'text',
-                            //style: {
-                            //    userSelect: 'text'
-                            //}
-                        },
-                        body: {
-                            strokeWidth: 3,
-                            cursor: 'pointer'
-                        }
-                    }
-                });
-            }
-            vertex.addTo(self._jointSM);
-            sm.places[placeId].joint = vertex;
+            self._jointSM.addCell([vertex]);
+            sm.places[placeId].joint = vertex   
             sm.id2state[vertex.id] = placeId;
+            sm.state2id[placeId] = vertex.id;
         });
 
-        // then create the links
+        Object.keys(sm.transitions).forEach(tran => {
+            let vertex = Transition.clone()
+                .attr('.label/text', sm.transitions[tran].name)
+                .position(sm.transitions[tran].position.x, sm.transitions[tran].position.y);
+            vertex.addTo(self._jointSM);
+            sm.transitions[tran].joint = vertex;
+            sm.id2state[vertex.id] = tran;
+            sm.state2id[tran] = vertex.id;
+        });
+
+         // then create the links
         Object.keys(sm.places).forEach(placeId => {
             const place = sm.places[placeId];
-            place.jointNext = place.jointNext || {};
             Object.keys(place.next).forEach(event => {
-                const link2 = new pn.Link({
-                    source: { id: place.joint.id},
-                    target: { id: sm.places[place.next[event]].joint.id},
-                    attrs: {
-                        '.connection': {
-                            'fill': 'none',
-                            'stroke-linejoin': 'round',
-                            'stroke-width': '2',
-                            'stroke': '#4b4a67'
-                        }
-                    }
-                });
+                place.jointNext = place.jointNext || {};
                 const link = new joint.shapes.standard.Link({
                     source: { id: place.joint.id },
-                    target: { id: sm.places[place.next[event]].joint.id },
-                    attrs: {
-                        line: {
-                            strokeWidth: 2
-                        },
-                        wrapper: {
-                            cursor: 'default'
-                        }
-                    },
-                    labels: [{
-                        position: {
-                            distance: 0.5,
-                            offset: 0,
-                            args: {
-                                keepGradient: true,
-                                ensureLegibility: true
-                            }
-                        },
-                        attrs: {
-                            text: {
-                                text: event,
-                                fontWeight: 'bold'
-                            }
-                        }
-                    }]
+                    target: { id: sm.places[place.next[event]].joint.id }
                 });
                 link.addTo(self._jointSM);
-                //link2.addTo(self._jointSM);
-                console.log("LINE 172")
-                console.log(place)
-                console.log(place.jointNext)
                 place.jointNext[event] = link;
-            })
+            });
         });
-
-        //now refresh the visualization
         self._jointPaper.updateViews();
         self._decorateMachine();
     };
@@ -223,22 +157,17 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
 
     //Click Driven Event = Press Play Button
     PNVizWidget.prototype.fireEvent = function (event) {
-        console.log("FIRE EVENT")
+        console.log("FIRE EVENT - WIDGET")
         const self = this;
         const current = self._webgmeSM.places[self._webgmeSM.current];
-        console.log(current)
         const link = current.jointNext[event];
-        console.log(link)
         const linkView = link.findView(self._jointPaper);
         linkView.sendToken(joint.V('circle', { r: 10, fill: 'black' }), { duration: 500 }, function () {
             const lastCurr = self._webgmeSM.current;
             const nextCurr = current.next[event];
             const state = self._webgmeSM;
             self._webgmeSM.current = current.next[event];
-            console.log(lastCurr, nextCurr);
-            console.log(self._webgmeSM);
             self._passTokens(state, lastCurr, nextCurr);
-            console.log("Before deco");
             self._decorateMachine();
         });
 
@@ -262,14 +191,19 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
 
     PNVizWidget.prototype._decorateMachine = function () {
         const sm = this._webgmeSM;
+        console.log("Decorate Machine******")
+        //console.log(this._webgmeSM.transitions["/Q/y"].joint)
+        //console.log(this._jointSM.getConnectedLinks(this._webgmeSM.transitions["/Q/y"].joint), { inbound: true }    );
         Object.keys(sm.places).forEach(placeId => {
             //MAKE ALL PLACES BLACK
             sm.places[placeId].joint.attr('body/stroke', '#333333');
         });
-        console.log("Decorate Machine")
-        console.log(sm.current)
-        console.log(sm.places[sm.current]);
-        sm.places[sm.current].joint.attr('body/stroke', 'blue');
+        console.log("CURRENT NODE")
+        console.log(sm.places[sm.current])
+        sm.places[sm.current].joint.attr('body/fill', 'red');
+        sm.places[sm.current].joint.attr('body/stroke', 'red');
+        console.log("DECO - OBJ  - FOR FIREABLE EVENT")
+        console.log(Object.keys(sm.places[sm.current].next)) 
         sm.setFireableEvents(Object.keys(sm.places[sm.current].next));
     };
 
