@@ -114,7 +114,7 @@ define([
         //we need our states (names, position, type), need the set of next state (with event names)
         const smNode = self._client.getNode(self._currentNodeId);
         const elementIds = smNode.getChildrenIds(); //Contain places, transitions, and arcs
-        const sm = { init: "/Q/h", places: {}, transitions: {} };
+        const sm = { init: "/Q/h", places: {}, transitions: {} };  //DIDN"T KNOW HOW TO GET AROUND THE INIT ISSUE
 
         elementIds.forEach(elementId => {
             const node = self._client.getNode(elementId);
@@ -178,7 +178,7 @@ define([
             }
         });
         sm.setFireableEvents = this.setFireableEvents;
-        console.log("BEFORE SM TO WIDGET")
+        console.log("SM data before Sending to Widget")
         console.log(sm)
         self._widget.initMachine(sm);
     };

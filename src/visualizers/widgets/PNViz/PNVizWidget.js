@@ -95,8 +95,6 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
     // State Machine manipulating functions called from the controller ***TAKES SM FROM CONTROL
     PNVizWidget.prototype.initMachine = function (machineDescriptor) {
         const self = this;
-        //var pn = joint.shapes.pn;
-        console.log("MACH DESC")
         self._webgmeSM = machineDescriptor;
         self._webgmeSM.current = self._webgmeSM.init;
         self._jointSM.clear();
@@ -104,9 +102,6 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
         sm.state2id = {};
         sm.id2state = {};
 
-        console.log("SEE PLACES THEN TRANS")
-        console.log(sm.places)
-        console.log(sm.transitions)
         // For each place node path
         Object.keys(sm.places).forEach(placeId => {
             //Initialized places and transitions
@@ -185,24 +180,24 @@ define(['jointjs', 'css!./styles/PNVizWidget.css'], function (joint) {
 
 
     PNVizWidget.prototype.resetMachine = function () {
+        console.log("Resetting")
+        console.log(this._webgmeSM.places["/Q/d"].tokens)
+        //this._webgmeSM.places["/Q/R"].tokens = 17  //TODO Checking to see if I can update the tokens when playing
+        console.log(this._webgmeSM.places["/Q/d"].tokens)
         this._webgmeSM.current = this._webgmeSM.init;
         this._decorateMachine();
     };
 
     PNVizWidget.prototype._decorateMachine = function () {
         const sm = this._webgmeSM;
-        console.log("Decorate Machine******")
-        //console.log(this._webgmeSM.transitions["/Q/y"].joint)
-        //console.log(this._jointSM.getConnectedLinks(this._webgmeSM.transitions["/Q/y"].joint), { inbound: true }    );
         Object.keys(sm.places).forEach(placeId => {
             //MAKE ALL PLACES BLACK
             sm.places[placeId].joint.attr('body/stroke', '#333333');
         });
         console.log("CURRENT NODE")
         console.log(sm.places[sm.current])
-        sm.places[sm.current].joint.attr('body/fill', 'red');
+        sm.places[sm.current].joint.attr('body/fill', 'red'); //DON"T KNOW WHY THE COLORS ARE NOT UPDATING
         sm.places[sm.current].joint.attr('body/stroke', 'red');
-        console.log("DECO - OBJ  - FOR FIREABLE EVENT")
         console.log(Object.keys(sm.places[sm.current].next)) 
         sm.setFireableEvents(Object.keys(sm.places[sm.current].next));
     };
